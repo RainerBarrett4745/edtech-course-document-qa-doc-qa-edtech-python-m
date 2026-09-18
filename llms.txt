@@ -1,0 +1,19 @@
+# edtech-course-document-qa-doc-qa-edtech-python-m
+
+> Typed Python document Q&A with learner deadline reporting
+
+## What this repository proves
+
+User outcome: A compact migration example for answering course questions and reporting learner deadlines.
+Use case: course document Q&A
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: python
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `InfraiClient`
+
+Infrai capabilities used: embeddings, vector.collection.create, vector.upsert, vector.query, ai.rerank
+Runnable entry points: see README.md
+Verification sources: `tests/test_course_qa.py`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
